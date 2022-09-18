@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 Head=1;
 
@@ -6,7 +6,7 @@ checkRandom=$((RANDOM%2))
 
 if [ $checkRandom -eq 1 ]
 then
-	echo "Heads";
+	echo "isHeads";
 else
-	echo "Tails"
+	echo "isTails"
 fi
